@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19865" started-at="2021-04-28T20:16:56 IST" finished-at="2021-04-28T20:17:16 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19865" started-at="2021-04-28T20:16:56 IST" finished-at="2021-04-28T20:17:16 IST">
+      <class name="com.selenium.pageobject_test.FixedDeposit_test">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.selenium.pageobject_test.FixedDeposit_test@614ddd49]" name="beforeTest" is-config="true" duration-ms="2189" started-at="2021-04-28T20:16:56 IST" finished-at="2021-04-28T20:16:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="fd_200000()[pri:0, instance:com.selenium.pageobject_test.FixedDeposit_test@614ddd49]" name="fd_200000" duration-ms="10204" started-at="2021-04-28T20:16:58 IST" description="Test case to verify fixed deposit for &#039;200000&#039;" finished-at="2021-04-28T20:17:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fd_200000 -->
+        <test-method status="PASS" signature="fd_100000()[pri:1, instance:com.selenium.pageobject_test.FixedDeposit_test@614ddd49]" name="fd_100000" duration-ms="4382" started-at="2021-04-28T20:17:10 IST" description="Test case to verify fixed deposit for &#039;100000&#039;" finished-at="2021-04-28T20:17:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fd_100000 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.selenium.pageobject_test.FixedDeposit_test@614ddd49]" name="afterTest" is-config="true" duration-ms="1134" started-at="2021-04-28T20:17:15 IST" finished-at="2021-04-28T20:17:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.selenium.pageobject_test.FixedDeposit_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

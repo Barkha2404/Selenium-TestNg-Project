@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[AltoroMutual_Login Successfull !!]]>
+    </line>
+    <line>
+      <![CDATA[TestYouLogin Successfull !!]]>
+    </line>
+    <line>
+      <![CDATA[OrangeHRM_Login Successfull !!]]>
+    </line>
+  </reporter-output>
+  <suite name="Smoke_Test" duration-ms="23882" started-at="2021-05-15T16:55:17 IST" finished-at="2021-05-15T16:55:41 IST">
+    <groups>
+      <group name="Altoro Mutual-Login">
+        <method signature="MutualLogin.loginAltoroMutual_admin()[pri:0, instance:com.seleniumtest.testng.MutualLogin@31610302]" name="loginAltoroMutual_admin" class="com.seleniumtest.testng.MutualLogin"/>
+      </group> <!-- Altoro Mutual-Login -->
+      <group name="Sample-groups">
+        <method signature="MutualLogin.loginAlotroMutual_Sample()[pri:4, instance:com.seleniumtest.testng.MutualLogin@31610302]" name="loginAlotroMutual_Sample" class="com.seleniumtest.testng.MutualLogin"/>
+      </group> <!-- Sample-groups -->
+    </groups>
+    <test name="AltorMutual Login" duration-ms="14840" started-at="2021-05-15T16:55:17 IST" finished-at="2021-05-15T16:55:31 IST">
+      <class name="com.seleniumtest.testng.MutualLogin">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.seleniumtest.testng.MutualLogin@31610302]" name="preCondition" is-config="true" duration-ms="2741" started-at="2021-05-15T16:55:17 IST" finished-at="2021-05-15T16:55:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="loginAltoroMutual_admin()[pri:0, instance:com.seleniumtest.testng.MutualLogin@31610302]" name="loginAltoroMutual_admin" duration-ms="10141" started-at="2021-05-15T16:55:20 IST" description="Test Case to verify &#039;admin&#039;login functionality" finished-at="2021-05-15T16:55:30 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[AltoroMutual_Login Successfull !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginAltoroMutual_admin -->
+        <test-method status="PASS" signature="loginAlotroMutual_Sample()[pri:4, instance:com.seleniumtest.testng.MutualLogin@31610302]" name="loginAlotroMutual_Sample" duration-ms="1" started-at="2021-05-15T16:55:30 IST" description="Group Sample" finished-at="2021-05-15T16:55:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAlotroMutual_Sample -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.seleniumtest.testng.MutualLogin@31610302]" name="postCondition" is-config="true" duration-ms="1797" started-at="2021-05-15T16:55:30 IST" finished-at="2021-05-15T16:55:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.seleniumtest.testng.MutualLogin -->
+    </test> <!-- AltorMutual Login -->
+    <test name="TestYou_Login" duration-ms="21463" started-at="2021-05-15T16:55:17 IST" finished-at="2021-05-15T16:55:38 IST">
+      <class name="com.seleniumtest.testng.TestYouLogin">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.seleniumtest.testng.TestYouLogin@52a86356]" name="beforeTest" is-config="true" duration-ms="3111" started-at="2021-05-15T16:55:17 IST" finished-at="2021-05-15T16:55:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TestYou_Login()[pri:0, instance:com.seleniumtest.testng.TestYouLogin@52a86356]" name="TestYou_Login" duration-ms="17686" started-at="2021-05-15T16:55:20 IST" finished-at="2021-05-15T16:55:37 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[TestYouLogin Successfull !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestYou_Login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.seleniumtest.testng.TestYouLogin@52a86356]" name="afterTest" is-config="true" duration-ms="661" started-at="2021-05-15T16:55:37 IST" finished-at="2021-05-15T16:55:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.seleniumtest.testng.TestYouLogin -->
+    </test> <!-- TestYou_Login -->
+    <test name="OrangeHRM_Login" duration-ms="23882" started-at="2021-05-15T16:55:17 IST" finished-at="2021-05-15T16:55:41 IST">
+      <class name="com.seleniumtest.testng.HRM_Login">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.seleniumtest.testng.HRM_Login@27c20538]" name="beforeTest" is-config="true" duration-ms="3378" started-at="2021-05-15T16:55:17 IST" finished-at="2021-05-15T16:55:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.seleniumtest.testng.HRM_Login@27c20538]" name="Login" duration-ms="19829" started-at="2021-05-15T16:55:20 IST" finished-at="2021-05-15T16:55:40 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[OrangeHRM_Login Successfull !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.seleniumtest.testng.HRM_Login@27c20538]" name="afterTest" is-config="true" duration-ms="672" started-at="2021-05-15T16:55:40 IST" finished-at="2021-05-15T16:55:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.seleniumtest.testng.HRM_Login -->
+    </test> <!-- OrangeHRM_Login -->
+  </suite> <!-- Smoke_Test -->
+</testng-results>
